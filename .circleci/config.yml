@@ -161,7 +161,7 @@ workflows:
         - config-image:
             requires:
               - smoke_test
-        - aws-eks/create-cluster:
+        - create-cluster:
             cluster-name: udacity-capstone
             requires:
               - config-image
