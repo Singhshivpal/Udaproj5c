@@ -162,23 +162,23 @@ workflows:
             requires:
               - smoke_test
         - create-cluster:
-            cluster-name: uda-capstone
+            cluster-name: uda-capstone-p5
             requires:
               - config-image
         - test-cluster:
-            cluster-name: uda-capstone
+            cluster-name: uda-capstone-p5
             requires:
               - create-cluster
         - create-deployment:
-            cluster-name:  uda-capstone
+            cluster-name:  uda-capstone-p5
             requires:
               - test-cluster
         - test-deployment:
-            cluster-name:  uda-capstone
+            cluster-name:  uda-capstone-p5
             requires:
               - create-deployment              
         - aws-eks/update-container-image:
-            cluster-name: uda-capstone
+            cluster-name: uda-capstone-p5
             container-image-updates: 'my-capstone-deployment=shiv12234/my-node-app:2.0'
             get-rollout-status: true
             record: true
@@ -186,7 +186,7 @@ workflows:
              - test-deployment
             resource-name:  deployment/my-capstone-deployment            
         
-        - aws-eks/delete-cluster:
-            cluster-name: udacity-capstone
-            requires:
-              - aws-eks/update-container-image
+        #- aws-eks/delete-cluster:
+        #    cluster-name: udacity-capstone
+        #    requires:
+        #      - aws-eks/update-container-image
