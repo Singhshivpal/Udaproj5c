@@ -33,7 +33,7 @@ jobs:
                 then
             echo "It worked!"
             else
-              echo "It failed"
+              echo "failed"
             fi
             
   config-image:
