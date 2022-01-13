@@ -9,6 +9,7 @@ Building Docker containers in pipelines
 
 ## Step 1: Propose and Scope the Project
 * Plan what your pipeline will look like.
+* (https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT11-%20circleci%20jobs%20are%20executed%20successfully.PNG)
 * Decide which options you will include in your Continuous Integration phase. Use either Circle CI or Jenkins.  
     **Circle CI**
 * Pick a deployment type - either rolling deployment or blue/green deployment.  
@@ -42,20 +43,21 @@ Building Docker containers in pipelines
 **https://github.com/Singhshivpal/Udaproj5c/blob/main/Dockerfile**
 
 * Include with your Linting step both a failed Linting screenshot and a successful Linting screenshot to show the Linter working properly.
-****
-****
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT3-%20Lint%20Failed.PNG**
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT4-%20Lint%20successful%20run.PNG**
 
 ## Step 5: Test your pipeline
 * Perform builds on your pipeline.
 * Verify that your pipeline works as you designed it.  
-** **
+** https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT11-%20circleci%20jobs%20are%20executed%20successfully.PNG **
 
 * Take a screenshot of the Circle CI or Jenkins pipeline showing deployment, and a screenshot of your AWS EC2 page showing the newly created (for blue/green) or modified (for rolling) instances. Make sure you name your instances differently between blue and green deployments.
 
-****
-****
-****
-****
-****
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT7-%20EKS%20Cluster.PNG**
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT9-%20deployment%20step.PNG**
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT1-%20V1%20deployment.PNG**
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT10-%20Rolling%20Deployment.PNG**
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT11-%20circleci%20jobs%20are%20executed%20successfully.PNG**
+**https://github.com/Singhshivpal/Udaproj5c/blob/main/Screenshot/SCREENSHOT2-%20V2%20deployment.PNG**
 
 ### Docker Registry - https://hub.docker.com/repository/docker/shiv12234/my-node-app ###

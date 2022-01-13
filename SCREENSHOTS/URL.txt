@@ -1,7 +1,0 @@
-github repo
-
-https://github.com/Singhshivpal/Udaproj5c
-
-Loadbalancer url
-
-http://a2030fad76da44fef81177b08dba4ac8-2120863426.us-east-1.elb.amazonaws.com:8080
