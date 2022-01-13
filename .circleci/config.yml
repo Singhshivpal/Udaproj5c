@@ -187,6 +187,6 @@ workflows:
             resource-name:  deployment/my-capstone-deployment            
         
         #- aws-eks/delete-cluster:
-        #    cluster-name: udacity-capstone
+        #    cluster-name: uda-capstone-p5
         #    requires:
         #      - aws-eks/update-container-image
